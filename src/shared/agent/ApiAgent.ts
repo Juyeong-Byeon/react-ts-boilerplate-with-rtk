@@ -14,7 +14,7 @@ class ApiAgent {
 		data: null,
 	};
 
-	public async get<T extends ApiResponse>(path: string, data?: any) {
+	public async get<T extends ApiResponse>(path: string, data:any) {
 		try {
 			return await (
 				await axios.get<T>(`${this.SERVER_PATH}/${path}`, data)

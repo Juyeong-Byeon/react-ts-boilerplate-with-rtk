@@ -12,16 +12,13 @@
     "core-js": "^3.19.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-google-login": "^5.2.2",
     "react-redux": "^7.2.6",
     "react-router-dom": "^5.3.0",
-    "reactjs-popup": "^2.0.5",
     "regenerator-runtime": "^0.13.9",
     "styled-components": "^5.3.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --progress",
     "dev": "webpack  serve --progress --mode=development --config ./config/webpack.config.dev.js  ",
     "prod": "webpack    --progress --mode=production --config ./config/webpack.config.prod.js   "
   },
